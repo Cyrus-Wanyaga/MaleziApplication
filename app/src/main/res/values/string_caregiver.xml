@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="caregiver">
+        <item>Parent/Guardian</item>
+        <item>Primary Caregiver</item>
+        <item>Secondary Caregiver</item>
+    </string-array>
+
+</resources>
