@@ -1,9 +1,1315 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".views.Milestone5">
+    android:layout_width="match_parent" android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_milestone5_1"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/mom_and_baby_closeup"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_milestone5_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/milestone5_1"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone5_1" />
+
+        <RadioGroup
+            android:id="@+id/rg_5_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone5_1">
+            <RadioButton
+                android:id="@+id/rb_milestone5_1_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/yes"
+                />
+
+            <RadioButton
+                android:id="@+id/rb_milestone5_1_delayed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/delayed"
+                />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/iv_milestone5_2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/baby_boy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rg_5_1" />
+
+        <TextView
+            android:id="@+id/tv_milestone5_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/milestone5_2"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone5_2" />
+
+        <RadioGroup
+            android:id="@+id/rg_5_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone5_2">
+            <RadioButton
+                android:id="@+id/rb_milestone5_2_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/yes"
+                />
+
+            <RadioButton
+                android:id="@+id/rb_milestone5_2_delayed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/delayed"
+                />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/iv_milestone5_3"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/baby_boy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rg_5_2" />
+
+        <TextView
+            android:id="@+id/tv_milestone5_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/milestone5_3"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone5_3" />
+
+        <RadioGroup
+            android:id="@+id/rg_5_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone5_3">
+            <RadioButton
+                android:id="@+id/rb_milestone5_3_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/yes"
+                />
+
+            <RadioButton
+                android:id="@+id/rb_milestone5_3_delayed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/delayed"
+                />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/iv_milestone5_4"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/baby_boy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rg_5_3"/>
+
+        <TextView
+            android:id="@+id/tv_milestone5_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/milestone5_4"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone5_4" />
+
+        <RadioGroup
+            android:id="@+id/rg_5_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone5_4">
+            <RadioButton
+                android:id="@+id/rb_milestone5_4_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/yes"
+                />
+
+            <RadioButton
+                android:id="@+id/rb_milestone5_4_delayed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/delayed"
+                />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/iv_milestone5_5"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/baby_boy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rg_5_4" />
+
+        <TextView
+            android:id="@+id/tv_milestone5_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/milestone5_5"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone5_5" />
+
+        <RadioGroup
+            android:id="@+id/rg_5_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone5_5">
+            <RadioButton
+                android:id="@+id/rb_milestone5_5_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/yes"
+                />
+
+            <RadioButton
+                android:id="@+id/rb_milestone5_5_delayed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/delayed"
+                />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/iv_milestone5_6"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/baby_boy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rg_5_5"/>
+
+        <TextView
+            android:id="@+id/tv_milestone5_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/milestone5_6"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone5_6" />
+
+        <RadioGroup
+            android:id="@+id/rg_5_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone5_6">
+            <RadioButton
+                android:id="@+id/rb_milestone5_6_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/yes"
+                />
+
+            <RadioButton
+                android:id="@+id/rb_milestone5_6_delayed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/delayed"
+                />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/iv_milestone5_7"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/baby_boy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rg_5_6" />
+
+        <TextView
+            android:id="@+id/tv_milestone5_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/milestone5_7"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone5_7" />
+
+        <RadioGroup
+            android:id="@+id/rg_5_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone5_7">
+            <RadioButton
+                android:id="@+id/rb_milestone5_7_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/yes"
+                />
+
+            <RadioButton
+                android:id="@+id/rb_milestone5_7_delayed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/delayed"
+                />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/iv_milestone5_8"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/baby_boy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rg_5_7" />
+
+        <TextView
+            android:id="@+id/tv_milestone5_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/milestone5_8"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone5_8" />
+
+        <RadioGroup
+            android:id="@+id/rg_5_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone5_8">
+            <RadioButton
+                android:id="@+id/rb_milestone5_8_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/yes"
+                />
+
+            <RadioButton
+                android:id="@+id/rb_milestone5_8_delayed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/delayed"
+                />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/iv_milestone5_9"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/baby_boy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rg_5_8" />
+
+        <TextView
+            android:id="@+id/tv_milestone5_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/milestone5_9"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone5_9" />
+
+        <RadioGroup
+            android:id="@+id/rg_5_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone5_9">
+            <RadioButton
+                android:id="@+id/rb_milestone5_9_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/yes"
+                />
+
+            <RadioButton
+                android:id="@+id/rb_milestone5_9_delayed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/delayed"
+                />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/iv_milestone5_10"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/baby_boy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rg_5_9" />
+
+        <TextView
+            android:id="@+id/tv_milestone5_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/milestone5_10"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone5_10" />
+
+        <RadioGroup
+            android:id="@+id/rg_5_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone5_10">
+            <RadioButton
+                android:id="@+id/rb_milestone5_10_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/yes"
+                />
+
+            <RadioButton
+                android:id="@+id/rb_milestone5_10_delayed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/delayed"
+                />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/iv_milestone5_11"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/baby_boy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rg_5_10" />
+
+        <TextView
+            android:id="@+id/tv_milestone5_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/milestone5_11"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone5_11" />
+
+        <RadioGroup
+            android:id="@+id/rg_5_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone5_11">
+            <RadioButton
+                android:id="@+id/rb_milestone5_11_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/yes"
+                />
+
+            <RadioButton
+                android:id="@+id/rb_milestone5_11_delayed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/delayed"
+                />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/iv_milestone5_12"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/baby_boy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rg_5_11" />
+
+        <TextView
+            android:id="@+id/tv_milestone5_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/milestone5_12"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone5_12" />
+
+        <RadioGroup
+            android:id="@+id/rg_5_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone5_12">
+            <RadioButton
+                android:id="@+id/rb_milestone5_12_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/yes"
+                />
+
+            <RadioButton
+                android:id="@+id/rb_milestone5_12_delayed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/delayed"
+                />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/iv_milestone5_13"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/baby_boy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rg_5_12" />
+
+        <TextView
+            android:id="@+id/tv_milestone5_13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/milestone5_13"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone5_13" />
+
+        <RadioGroup
+            android:id="@+id/rg_5_13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone5_13">
+            <RadioButton
+                android:id="@+id/rb_milestone5_13_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/yes"
+                />
+
+            <RadioButton
+                android:id="@+id/rb_milestone5_13_delayed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/delayed"
+                />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/iv_milestone5_14"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/baby_boy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rg_5_13" />
+
+        <TextView
+            android:id="@+id/tv_milestone5_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/milestone5_14"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone5_14" />
+
+        <RadioGroup
+            android:id="@+id/rg_5_14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone5_14">
+            <RadioButton
+                android:id="@+id/rb_milestone5_14_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/yes"
+                />
+
+            <RadioButton
+                android:id="@+id/rb_milestone5_14_delayed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/delayed"
+                />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/iv_milestone5_15"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/baby_boy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rg_5_14" />
+
+        <TextView
+            android:id="@+id/tv_milestone5_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/milestone5_15"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone5_15" />
+
+        <RadioGroup
+            android:id="@+id/rg_5_15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone5_15">
+            <RadioButton
+                android:id="@+id/rb_milestone5_15_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/yes"
+                />
+
+            <RadioButton
+                android:id="@+id/rb_milestone5_15_delayed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/delayed"
+                />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/iv_milestone5_16"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/baby_boy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rg_5_15" />
+
+        <TextView
+            android:id="@+id/tv_milestone5_16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/milestone5_16"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone5_16" />
+
+        <RadioGroup
+            android:id="@+id/rg_5_16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone5_16">
+            <RadioButton
+                android:id="@+id/rb_milestone5_16_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/yes"
+                />
+
+            <RadioButton
+                android:id="@+id/rb_milestone5_16_delayed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/delayed"
+                />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/iv_milestone5_17"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/baby_boy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rg_5_16" />
+
+        <TextView
+            android:id="@+id/tv_milestone5_17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/milestone5_17"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone5_17" />
+
+        <RadioGroup
+            android:id="@+id/rg_5_17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone5_17">
+            <RadioButton
+                android:id="@+id/rb_milestone5_17_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/yes"
+                />
+
+            <RadioButton
+                android:id="@+id/rb_milestone5_17_delayed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/delayed"
+                />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/iv_milestone5_18"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/baby_boy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rg_5_17" />
+
+        <TextView
+            android:id="@+id/tv_milestone5_18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/milestone5_18"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone5_18" />
+
+        <RadioGroup
+            android:id="@+id/rg_5_18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone5_18">
+            <RadioButton
+                android:id="@+id/rb_milestone5_18_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/yes"
+                />
+
+            <RadioButton
+                android:id="@+id/rb_milestone5_18_delayed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/delayed"
+                />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/iv_milestone5_19"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/baby_boy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rg_5_18" />
+
+        <TextView
+            android:id="@+id/tv_milestone5_19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/milestone5_19"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone5_19" />
+
+        <RadioGroup
+            android:id="@+id/rg_5_19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone5_19">
+            <RadioButton
+                android:id="@+id/rb_milestone5_19_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/yes"
+                />
+
+            <RadioButton
+                android:id="@+id/rb_milestone5_19_delayed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/delayed"
+                />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/iv_milestone5_20"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/baby_boy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rg_5_19" />
+
+        <TextView
+            android:id="@+id/tv_milestone5_20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/milestone5_20"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone5_20" />
+
+        <RadioGroup
+            android:id="@+id/rg_5_20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone5_20">
+            <RadioButton
+                android:id="@+id/rb_milestone5_20_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/yes"
+                />
+
+            <RadioButton
+                android:id="@+id/rb_milestone5_20_delayed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/delayed"
+                />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/iv_milestone5_21"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/baby_boy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rg_5_20" />
+
+        <TextView
+            android:id="@+id/tv_milestone5_21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/milestone5_21"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone5_21" />
+
+        <RadioGroup
+            android:id="@+id/rg_5_21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone5_21">
+            <RadioButton
+                android:id="@+id/rb_milestone5_21_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/yes"
+                />
+
+            <RadioButton
+                android:id="@+id/rb_milestone5_21_delayed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/delayed"
+                />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/iv_milestone5_22"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/baby_boy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rg_5_21" />
+
+        <TextView
+            android:id="@+id/tv_milestone5_22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/milestone5_22"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone5_22" />
+
+        <RadioGroup
+            android:id="@+id/rg_5_22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone5_22">
+            <RadioButton
+                android:id="@+id/rb_milestone5_22_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/yes"
+                />
+
+            <RadioButton
+                android:id="@+id/rb_milestone5_22_delayed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/delayed"
+                />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/iv_milestone5_23"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/baby_boy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rg_5_22" />
+
+        <TextView
+            android:id="@+id/tv_milestone5_23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/milestone5_23"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone5_23" />
+
+        <RadioGroup
+            android:id="@+id/rg_5_23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone5_23">
+            <RadioButton
+                android:id="@+id/rb_milestone5_23_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/yes"
+                />
+
+            <RadioButton
+                android:id="@+id/rb_milestone5_23_delayed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/delayed"
+                />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/iv_milestone5_24"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/baby_boy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rg_5_23" />
+
+        <TextView
+            android:id="@+id/tv_milestone5_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/milestone5_24"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone5_24" />
+
+        <RadioGroup
+            android:id="@+id/rg_5_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone5_24">
+            <RadioButton
+                android:id="@+id/rb_milestone5_24_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/yes"
+                />
+
+            <RadioButton
+                android:id="@+id/rb_milestone5_24_delayed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/delayed"
+                />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/iv_milestone5_25"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/baby_boy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rg_5_24" />
+
+        <TextView
+            android:id="@+id/tv_milestone5_25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/milestone5_25"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone5_25" />
+
+        <RadioGroup
+            android:id="@+id/rg_5_25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone5_25">
+            <RadioButton
+                android:id="@+id/rb_milestone5_25_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/yes"
+                />
+
+            <RadioButton
+                android:id="@+id/rb_milestone5_25_delayed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/delayed"
+                />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/iv_milestone5_26"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/baby_boy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rg_5_25" />
+
+        <TextView
+            android:id="@+id/tv_milestone5_26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/milestone5_26"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone5_26" />
+
+        <RadioGroup
+            android:id="@+id/rg_5_26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone5_26">
+            <RadioButton
+                android:id="@+id/rb_milestone5_26_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/yes"
+                />
+
+            <RadioButton
+                android:id="@+id/rb_milestone5_26_delayed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/delayed"
+                />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/iv_milestone5_27"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/baby_boy"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rg_5_26" />
+
+        <TextView
+            android:id="@+id/tv_milestone5_27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/milestone5_27"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone5_27" />
+
+        <RadioGroup
+            android:id="@+id/rg_5_27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone5_27">
+            <RadioButton
+                android:id="@+id/rb_milestone5_27_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/yes"
+                />
+
+            <RadioButton
+                android:id="@+id/rb_milestone5_27_delayed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/delayed"
+                />
+        </RadioGroup>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

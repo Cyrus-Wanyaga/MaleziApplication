@@ -8,7 +8,9 @@ import android.widget.Button;
 
 import com.example.maleziapplication.R;
 
-public class MilestoneActivity extends Activity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class MilestoneActivity extends AppCompatActivity {
 
     private Button btnMilestone1;
     private Button btnMilestone2;
