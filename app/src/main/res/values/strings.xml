@@ -33,6 +33,19 @@
     <string name="boy">Boy</string>
     <string name="girl">Girl</string>
     <string name="name">Name</string>
+    <string name="yes">Yes</string>
+    <string name="delayed">Delayed</string>
     <string name="dob">Date of Birth</string>
     <string name="caregiver">Caregiver Level</string>
+    <string name="milestone1_1">Begins To Smile At People</string>
+    <string name="milestone1_2">Can briefly calm herself (may bring hands to mouth and suck on hand)</string>
+    <string name="milestone1_3">Tries to look at parent</string>
+    <string name="milestone1_4">Coos, makes gurgling sounds</string>
+    <string name="milestone1_5">Turns head toward sounds</string>
+    <string name="milestone1_6">Pays attention to faces </string>
+    <string name="milestone1_7">Begins to follow things with eyes and recognize people at a distance</string>
+    <string name="milestone1_8">Begins to act bored (cries, fussy) if activity does not change</string>
+    <string name="milestone1_9">Can hold head up and begins to push up when lying on tummy</string>
+    <string name="milestone1_10">Makes smoother movements with arms and legs</string>
+
 </resources>

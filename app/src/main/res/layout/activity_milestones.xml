@@ -16,6 +16,7 @@
             android:layout_height="150dp"
             android:layout_marginStart="40dp"
             android:layout_marginTop="24dp"
+            android:clickable="true"
             android:src="@drawable/baby_boy"
             app:layout_constraintEnd_toStartOf="@+id/milestone2"
             app:layout_constraintHorizontal_bias="0.5"
