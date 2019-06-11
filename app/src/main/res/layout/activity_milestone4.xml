@@ -8,7 +8,7 @@
         android:layout_height="match_parent">
 
         <ImageView
-            android:id="@+id/iv_milestone2_1"
+            android:id="@+id/iv_milestone4_1"
             android:layout_width="wrap_content"
             android:layout_height="150dp"
             android:layout_marginTop="6dp"
@@ -18,26 +18,26 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/tv_milestone2_1"
+            android:id="@+id/tv_milestone4_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="@string/milestone2_1"
+            android:text="@string/milestone4_1"
             android:textSize="13sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/iv_milestone2_1" />
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone4_1" />
 
         <RadioGroup
-            android:id="@+id/rg_2_1"
+            android:id="@+id/rg_4_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_milestone2_1">
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone4_1">
             <RadioButton
-                android:id="@+id/rb_milestone2_1_yes"
+                android:id="@+id/rb_milestone4_1_yes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -46,7 +46,7 @@
                 />
 
             <RadioButton
-                android:id="@+id/rb_milestone2_1_delayed"
+                android:id="@+id/rb_milestone4_1_delayed"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -57,36 +57,36 @@
         </RadioGroup>
 
         <ImageView
-            android:id="@+id/iv_milestone2_2"
+            android:id="@+id/iv_milestone4_2"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_marginTop="6dp"
             android:src="@drawable/baby_boy"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/rg_2_1" />
+            app:layout_constraintTop_toBottomOf="@+id/rg_4_1" />
 
         <TextView
-            android:id="@+id/tv_milestone2_2"
+            android:id="@+id/tv_milestone4_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="@string/milestone2_2"
+            android:text="@string/milestone4_2"
             android:textSize="13sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/iv_milestone2_2" />
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone4_2" />
 
         <RadioGroup
-            android:id="@+id/rg_2_2"
+            android:id="@+id/rg_4_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_milestone2_2">
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone4_2">
             <RadioButton
-                android:id="@+id/rb_milestone2_2_yes"
+                android:id="@+id/rb_milestone4_2_yes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -95,7 +95,7 @@
                 />
 
             <RadioButton
-                android:id="@+id/rb_milestone2_2_delayed"
+                android:id="@+id/rb_milestone4_2_delayed"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -106,36 +106,36 @@
         </RadioGroup>
 
         <ImageView
-            android:id="@+id/iv_milestone2_3"
+            android:id="@+id/iv_milestone4_3"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_marginTop="6dp"
             android:src="@drawable/baby_boy"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/rg_2_2" />
+            app:layout_constraintTop_toBottomOf="@+id/rg_4_2" />
 
         <TextView
-            android:id="@+id/tv_milestone2_3"
+            android:id="@+id/tv_milestone4_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="@string/milestone2_3"
+            android:text="@string/milestone4_3"
             android:textSize="13sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/iv_milestone2_3" />
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone4_3" />
 
         <RadioGroup
-            android:id="@+id/rg_2_3"
+            android:id="@+id/rg_4_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_milestone2_3">
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone4_3">
             <RadioButton
-                android:id="@+id/rb_milestone2_3_yes"
+                android:id="@+id/rb_milestone4_3_yes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -144,7 +144,7 @@
                 />
 
             <RadioButton
-                android:id="@+id/rb_milestone2_3_delayed"
+                android:id="@+id/rb_milestone4_3_delayed"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -155,36 +155,36 @@
         </RadioGroup>
 
         <ImageView
-            android:id="@+id/iv_milestone2_4"
+            android:id="@+id/iv_milestone4_4"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_marginTop="6dp"
             android:src="@drawable/baby_boy"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/rg_2_3" />
+            app:layout_constraintTop_toBottomOf="@+id/rg_4_3"/>
 
         <TextView
-            android:id="@+id/tv_milestone2_4"
+            android:id="@+id/tv_milestone4_4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="@string/milestone2_4"
+            android:text="@string/milestone4_4"
             android:textSize="13sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/iv_milestone2_4" />
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone4_4" />
 
         <RadioGroup
-            android:id="@+id/rg_2_4"
+            android:id="@+id/rg_4_4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_milestone2_4">
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone4_4">
             <RadioButton
-                android:id="@+id/rb_milestone2_4_yes"
+                android:id="@+id/rb_milestone4_4_yes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -193,7 +193,7 @@
                 />
 
             <RadioButton
-                android:id="@+id/rb_milestone2_4_delayed"
+                android:id="@+id/rb_milestone4_4_delayed"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -204,36 +204,36 @@
         </RadioGroup>
 
         <ImageView
-            android:id="@+id/iv_milestone2_5"
+            android:id="@+id/iv_milestone4_5"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_marginTop="6dp"
             android:src="@drawable/baby_boy"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/rg_2_4" />
+            app:layout_constraintTop_toBottomOf="@+id/rg_4_4" />
 
         <TextView
-            android:id="@+id/tv_milestone2_5"
+            android:id="@+id/tv_milestone4_5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="@string/milestone2_5"
+            android:text="@string/milestone4_5"
             android:textSize="13sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/iv_milestone2_5" />
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone4_5" />
 
         <RadioGroup
-            android:id="@+id/rg_2_5"
+            android:id="@+id/rg_4_5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_milestone2_5">
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone4_5">
             <RadioButton
-                android:id="@+id/rb_milestone2_5_yes"
+                android:id="@+id/rb_milestone4_5_yes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -242,7 +242,7 @@
                 />
 
             <RadioButton
-                android:id="@+id/rb_milestone2_5_delayed"
+                android:id="@+id/rb_milestone4_5_delayed"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -253,36 +253,36 @@
         </RadioGroup>
 
         <ImageView
-            android:id="@+id/iv_milestone2_6"
+            android:id="@+id/iv_milestone4_6"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_marginTop="6dp"
             android:src="@drawable/baby_boy"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/rg_2_5"/>
+            app:layout_constraintTop_toBottomOf="@+id/rg_4_5"/>
 
         <TextView
-            android:id="@+id/tv_milestone2_6"
+            android:id="@+id/tv_milestone4_6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="@string/milestone2_6"
+            android:text="@string/milestone4_6"
             android:textSize="13sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/iv_milestone2_6" />
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone4_6" />
 
         <RadioGroup
-            android:id="@+id/rg_2_6"
+            android:id="@+id/rg_4_6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_milestone2_6">
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone4_6">
             <RadioButton
-                android:id="@+id/rb_milestone2_6_yes"
+                android:id="@+id/rb_milestone4_6_yes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -291,7 +291,7 @@
                 />
 
             <RadioButton
-                android:id="@+id/rb_milestone2_6_delayed"
+                android:id="@+id/rb_milestone4_6_delayed"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -302,36 +302,36 @@
         </RadioGroup>
 
         <ImageView
-            android:id="@+id/iv_milestone2_7"
+            android:id="@+id/iv_milestone4_7"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_marginTop="6dp"
             android:src="@drawable/baby_boy"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/rg_2_6" />
+            app:layout_constraintTop_toBottomOf="@+id/rg_4_6" />
 
         <TextView
-            android:id="@+id/tv_milestone2_7"
+            android:id="@+id/tv_milestone4_7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="@string/milestone2_7"
+            android:text="@string/milestone4_7"
             android:textSize="13sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/iv_milestone2_7" />
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone4_7" />
 
         <RadioGroup
-            android:id="@+id/rg_2_7"
+            android:id="@+id/rg_4_7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_milestone2_7">
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone4_7">
             <RadioButton
-                android:id="@+id/rb_milestone2_7_yes"
+                android:id="@+id/rb_milestone4_7_yes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -340,7 +340,7 @@
                 />
 
             <RadioButton
-                android:id="@+id/rb_milestone2_7_delayed"
+                android:id="@+id/rb_milestone4_7_delayed"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -351,36 +351,36 @@
         </RadioGroup>
 
         <ImageView
-            android:id="@+id/iv_milestone2_8"
+            android:id="@+id/iv_milestone4_8"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_marginTop="6dp"
             android:src="@drawable/baby_boy"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/rg_2_7" />
+            app:layout_constraintTop_toBottomOf="@+id/rg_4_7" />
 
         <TextView
-            android:id="@+id/tv_milestone2_8"
+            android:id="@+id/tv_milestone4_8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="@string/milestone2_8"
+            android:text="@string/milestone4_8"
             android:textSize="13sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/iv_milestone2_8" />
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone4_8" />
 
         <RadioGroup
-            android:id="@+id/rg_2_8"
+            android:id="@+id/rg_4_8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_milestone2_8">
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone4_8">
             <RadioButton
-                android:id="@+id/rb_milestone2_8_yes"
+                android:id="@+id/rb_milestone4_8_yes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -389,7 +389,7 @@
                 />
 
             <RadioButton
-                android:id="@+id/rb_milestone2_8_delayed"
+                android:id="@+id/rb_milestone4_8_delayed"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -400,36 +400,36 @@
         </RadioGroup>
 
         <ImageView
-            android:id="@+id/iv_milestone2_9"
+            android:id="@+id/iv_milestone4_9"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_marginTop="6dp"
             android:src="@drawable/baby_boy"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/rg_2_8" />
+            app:layout_constraintTop_toBottomOf="@+id/rg_4_8" />
 
         <TextView
-            android:id="@+id/tv_milestone2_9"
+            android:id="@+id/tv_milestone4_9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="@string/milestone2_9"
+            android:text="@string/milestone4_9"
             android:textSize="13sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/iv_milestone2_9" />
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone4_9" />
 
         <RadioGroup
-            android:id="@+id/rg_2_9"
+            android:id="@+id/rg_4_9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_milestone2_9">
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone4_9">
             <RadioButton
-                android:id="@+id/rb_milestone2_9_yes"
+                android:id="@+id/rb_milestone4_9_yes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -438,7 +438,7 @@
                 />
 
             <RadioButton
-                android:id="@+id/rb_milestone2_9_delayed"
+                android:id="@+id/rb_milestone4_9_delayed"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -449,35 +449,35 @@
         </RadioGroup>
 
         <ImageView
-            android:id="@+id/iv_milestone2_10"
+            android:id="@+id/iv_milestone4_10"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:src="@drawable/baby_boy"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/rg_2_9" />
+            app:layout_constraintTop_toBottomOf="@+id/rg_4_9" />
 
         <TextView
-            android:id="@+id/tv_milestone2_10"
+            android:id="@+id/tv_milestone4_10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="@string/milestone2_10"
+            android:text="@string/milestone4_10"
             android:textSize="13sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/iv_milestone2_10" />
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone4_10" />
 
         <RadioGroup
-            android:id="@+id/rg_2_10"
+            android:id="@+id/rg_4_10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_milestone2_10">
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone4_10">
             <RadioButton
-                android:id="@+id/rb_milestone2_10_yes"
+                android:id="@+id/rb_milestone4_10_yes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -486,7 +486,7 @@
                 />
 
             <RadioButton
-                android:id="@+id/rb_milestone2_10_delayed"
+                android:id="@+id/rb_milestone4_10_delayed"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -497,35 +497,35 @@
         </RadioGroup>
 
         <ImageView
-            android:id="@+id/iv_milestone2_11"
+            android:id="@+id/iv_milestone4_11"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:src="@drawable/baby_boy"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/rg_2_10" />
+            app:layout_constraintTop_toBottomOf="@+id/rg_4_10" />
 
         <TextView
-            android:id="@+id/tv_milestone2_11"
+            android:id="@+id/tv_milestone4_11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="@string/milestone2_11"
+            android:text="@string/milestone4_11"
             android:textSize="13sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/iv_milestone2_11" />
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone4_11" />
 
         <RadioGroup
-            android:id="@+id/rg_2_11"
+            android:id="@+id/rg_4_11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_milestone2_11">
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone4_11">
             <RadioButton
-                android:id="@+id/rb_milestone2_11_yes"
+                android:id="@+id/rb_milestone4_11_yes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -534,7 +534,7 @@
                 />
 
             <RadioButton
-                android:id="@+id/rb_milestone2_11_delayed"
+                android:id="@+id/rb_milestone4_11_delayed"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -545,35 +545,35 @@
         </RadioGroup>
 
         <ImageView
-            android:id="@+id/iv_milestone2_12"
+            android:id="@+id/iv_milestone4_12"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:src="@drawable/baby_boy"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/rg_2_11" />
+            app:layout_constraintTop_toBottomOf="@+id/rg_4_11" />
 
         <TextView
-            android:id="@+id/tv_milestone2_12"
+            android:id="@+id/tv_milestone4_12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="@string/milestone2_12"
+            android:text="@string/milestone4_12"
             android:textSize="13sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/iv_milestone2_12" />
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone4_12" />
 
         <RadioGroup
-            android:id="@+id/rg_2_12"
+            android:id="@+id/rg_4_12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_milestone2_12">
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone4_12">
             <RadioButton
-                android:id="@+id/rb_milestone2_12_yes"
+                android:id="@+id/rb_milestone4_12_yes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -582,7 +582,7 @@
                 />
 
             <RadioButton
-                android:id="@+id/rb_milestone2_12_delayed"
+                android:id="@+id/rb_milestone4_12_delayed"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -593,35 +593,35 @@
         </RadioGroup>
 
         <ImageView
-            android:id="@+id/iv_milestone2_13"
+            android:id="@+id/iv_milestone4_13"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:src="@drawable/baby_boy"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/rg_2_12" />
+            app:layout_constraintTop_toBottomOf="@+id/rg_4_12" />
 
         <TextView
-            android:id="@+id/tv_milestone2_13"
+            android:id="@+id/tv_milestone4_13"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="@string/milestone2_13"
+            android:text="@string/milestone4_13"
             android:textSize="13sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/iv_milestone2_13" />
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone4_13" />
 
         <RadioGroup
-            android:id="@+id/rg_2_13"
+            android:id="@+id/rg_4_13"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_milestone2_13">
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone4_13">
             <RadioButton
-                android:id="@+id/rb_milestone2_13_yes"
+                android:id="@+id/rb_milestone4_13_yes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -630,7 +630,7 @@
                 />
 
             <RadioButton
-                android:id="@+id/rb_milestone2_13_delayed"
+                android:id="@+id/rb_milestone4_13_delayed"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -641,35 +641,35 @@
         </RadioGroup>
 
         <ImageView
-            android:id="@+id/iv_milestone2_14"
+            android:id="@+id/iv_milestone4_14"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:src="@drawable/baby_boy"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/rg_2_13" />
+            app:layout_constraintTop_toBottomOf="@+id/rg_4_13" />
 
         <TextView
-            android:id="@+id/tv_milestone2_14"
+            android:id="@+id/tv_milestone4_14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="@string/milestone2_14"
+            android:text="@string/milestone4_14"
             android:textSize="13sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/iv_milestone2_14" />
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone4_14" />
 
         <RadioGroup
-            android:id="@+id/rg_2_14"
+            android:id="@+id/rg_4_14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_milestone2_14">
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone4_14">
             <RadioButton
-                android:id="@+id/rb_milestone2_14_yes"
+                android:id="@+id/rb_milestone4_14_yes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -678,7 +678,7 @@
                 />
 
             <RadioButton
-                android:id="@+id/rb_milestone2_14_delayed"
+                android:id="@+id/rb_milestone4_14_delayed"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -689,35 +689,35 @@
         </RadioGroup>
 
         <ImageView
-            android:id="@+id/iv_milestone2_15"
+            android:id="@+id/iv_milestone4_15"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:src="@drawable/baby_boy"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/rg_2_14" />
+            app:layout_constraintTop_toBottomOf="@+id/rg_4_14" />
 
         <TextView
-            android:id="@+id/tv_milestone2_15"
+            android:id="@+id/tv_milestone4_15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="@string/milestone2_15"
+            android:text="@string/milestone4_15"
             android:textSize="13sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/iv_milestone2_15" />
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone4_15" />
 
         <RadioGroup
-            android:id="@+id/rg_2_15"
+            android:id="@+id/rg_4_15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_milestone2_15">
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone4_15">
             <RadioButton
-                android:id="@+id/rb_milestone2_15_yes"
+                android:id="@+id/rb_milestone4_15_yes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -726,7 +726,7 @@
                 />
 
             <RadioButton
-                android:id="@+id/rb_milestone2_15_delayed"
+                android:id="@+id/rb_milestone4_15_delayed"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -737,35 +737,35 @@
         </RadioGroup>
 
         <ImageView
-            android:id="@+id/iv_milestone2_16"
+            android:id="@+id/iv_milestone4_16"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:src="@drawable/baby_boy"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/rg_2_15" />
+            app:layout_constraintTop_toBottomOf="@+id/rg_4_15" />
 
         <TextView
-            android:id="@+id/tv_milestone2_16"
+            android:id="@+id/tv_milestone4_16"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="@string/milestone2_16"
+            android:text="@string/milestone4_16"
             android:textSize="13sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/iv_milestone2_16" />
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone4_16" />
 
         <RadioGroup
-            android:id="@+id/rg_2_16"
+            android:id="@+id/rg_4_16"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_milestone2_16">
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone4_16">
             <RadioButton
-                android:id="@+id/rb_milestone2_16_yes"
+                android:id="@+id/rb_milestone4_16_yes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -774,7 +774,7 @@
                 />
 
             <RadioButton
-                android:id="@+id/rb_milestone2_16_delayed"
+                android:id="@+id/rb_milestone4_16_delayed"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -785,35 +785,35 @@
         </RadioGroup>
 
         <ImageView
-            android:id="@+id/iv_milestone2_17"
+            android:id="@+id/iv_milestone4_17"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:src="@drawable/baby_boy"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/rg_2_16" />
+            app:layout_constraintTop_toBottomOf="@+id/rg_4_16" />
 
         <TextView
-            android:id="@+id/tv_milestone2_17"
+            android:id="@+id/tv_milestone4_17"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="@string/milestone2_17"
+            android:text="@string/milestone4_17"
             android:textSize="13sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/iv_milestone2_17" />
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone4_17" />
 
         <RadioGroup
-            android:id="@+id/rg_2_17"
+            android:id="@+id/rg_4_17"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_milestone2_17">
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone4_17">
             <RadioButton
-                android:id="@+id/rb_milestone2_17_yes"
+                android:id="@+id/rb_milestone4_17_yes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -822,7 +822,7 @@
                 />
 
             <RadioButton
-                android:id="@+id/rb_milestone2_17_delayed"
+                android:id="@+id/rb_milestone4_17_delayed"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -833,35 +833,35 @@
         </RadioGroup>
 
         <ImageView
-            android:id="@+id/iv_milestone2_18"
+            android:id="@+id/iv_milestone4_18"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:src="@drawable/baby_boy"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/rg_2_17" />
+            app:layout_constraintTop_toBottomOf="@+id/rg_4_17" />
 
         <TextView
-            android:id="@+id/tv_milestone2_18"
+            android:id="@+id/tv_milestone4_18"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="@string/milestone2_18"
+            android:text="@string/milestone4_18"
             android:textSize="13sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/iv_milestone2_18" />
+            app:layout_constraintTop_toBottomOf="@id/iv_milestone4_18" />
 
         <RadioGroup
-            android:id="@+id/rg_2_18"
+            android:id="@+id/rg_4_18"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_milestone2_18">
+            app:layout_constraintTop_toBottomOf="@id/tv_milestone4_18">
             <RadioButton
-                android:id="@+id/rb_milestone2_18_yes"
+                android:id="@+id/rb_milestone4_18_yes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -870,55 +870,7 @@
                 />
 
             <RadioButton
-                android:id="@+id/rb_milestone2_18_delayed"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="8dp"
-                android:text="@string/delayed"
-                />
-        </RadioGroup>
-
-        <ImageView
-            android:id="@+id/iv_milestone2_19"
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:src="@drawable/baby_boy"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/rg_2_18" />
-
-        <TextView
-            android:id="@+id/tv_milestone2_19"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:text="@string/milestone2_19"
-            android:textSize="13sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/iv_milestone2_19" />
-
-        <RadioGroup
-            android:id="@+id/rg_2_19"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tv_milestone2_19">
-            <RadioButton
-                android:id="@+id/rb_milestone2_19_yes"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:text="@string/yes"
-                />
-
-            <RadioButton
-                android:id="@+id/rb_milestone2_19_delayed"
+                android:id="@+id/rb_milestone4_18_delayed"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"

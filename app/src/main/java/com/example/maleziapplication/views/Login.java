@@ -109,6 +109,7 @@ public class Login extends Activity {
 
             @Override
             public void onResponse(String response) {
+                //for logging when debugging
                 Log.d(TAG, "C " + response.toString());
                 hideDialog();
 
@@ -121,17 +122,19 @@ public class Login extends Activity {
                         //User successfully logged in
                         //Create login session
                         //if (jObj.getString("msg").equals("Welcome")) {
-                          //  session.setLogin(true);
-
-                            //JSONObject user = jObj.getJSONObject("user");
-                            //String name = user.getString("name");
-                            //String email = user.getString("email");
-                            //String created_at = user.getString("created_at");
+                            //String id = jObj.getString("id");
+//                            JSONObject user = jObj.getJSONObject("user");
+//                            String name = user.getString("name");
+//                            String email = user.getString("email");
+//                            String created_at = user.getString("created_at");
 
 //                          INSERT ROWS IN USERS TABLE
                             //db.addUser(name, email, created_at);
 
+
                             //OPEN MAIN ACTIVITY
+                            //session.setLogin(true);
+
                             Intent intent = new Intent(Login.this, MainActivity.class);
                             startActivity(intent);
                             finish();

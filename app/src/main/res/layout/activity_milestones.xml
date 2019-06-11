@@ -4,18 +4,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        >
 
         <ImageView
             android:id="@+id/milestone1"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_marginStart="40dp"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="0dp"
             android:clickable="true"
             android:src="@drawable/baby_boy"
             app:layout_constraintEnd_toStartOf="@+id/milestone2"
@@ -39,7 +42,7 @@
             android:id="@+id/milestone2"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="0dp"
             android:layout_marginEnd="40dp"
             android:src="@drawable/baby_boy"
             app:layout_constraintEnd_toEndOf="parent"
@@ -154,54 +157,6 @@
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/milestone5_btn"
             app:layout_constraintTop_toBottomOf="@+id/milestone6" />
-
-        <ImageView
-            android:id="@+id/milestone7"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="12dp"
-            android:src="@drawable/baby_boy"
-            app:layout_constraintEnd_toStartOf="@+id/milestone8"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/milestone5_btn" />
-
-        <Button
-            android:id="@+id/milestone7_btn"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:background="@drawable/btn_borderless"
-            android:text="@string/milestone7"
-            app:layout_constraintEnd_toStartOf="@+id/milestone8_btn"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/milestone7" />
-
-        <ImageView
-            android:id="@+id/milestone8"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:layout_marginTop="12dp"
-            android:layout_marginEnd="40dp"
-            android:src="@drawable/baby_boy"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/milestone7"
-            app:layout_constraintTop_toBottomOf="@id/milestone6_btn" />
-
-        <Button
-            android:id="@+id/milestone8_btn"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="40dp"
-            android:background="@drawable/btn_borderless"
-            android:text="@string/milestone8"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/milestone7_btn"
-            app:layout_constraintTop_toBottomOf="@+id/milestone8" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>

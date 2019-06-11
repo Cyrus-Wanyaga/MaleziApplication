@@ -3,14 +3,12 @@ package com.example.maleziapplication.views;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-
 import com.example.maleziapplication.R;
-
-public class Milestone3 extends AppCompatActivity {
+public class Milestone5 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_milestone3);
+        setContentView(R.layout.activity_milestone5);
     }
 }
