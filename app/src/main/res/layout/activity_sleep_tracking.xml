@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.SleepTracking">
+
+    <TextView
+        android:id="@+id/tv_sleep_tracking1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/sleepTracking"
+        android:textColor="@color/text"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_sleep_tracking1"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/sleeping_baby"
+        app:layout_constraintEnd_toStartOf="@+id/et_sleep_tracking1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_sleep_tracking1" />
+
+    <EditText
+        android:id="@+id/et_sleep_tracking1"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:hint=""
+        app:layout_constraintEnd_toStartOf="@+id/iv_sleep_tracking2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/iv_sleep_tracking1"
+        app:layout_constraintTop_toBottomOf="@id/tv_sleep_tracking1" />
+
+    <ImageView
+        android:id="@+id/iv_sleep_tracking2"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/baby_awake"
+        app:layout_constraintEnd_toStartOf="@+id/et_sleep_tracking2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/et_sleep_tracking1"
+        app:layout_constraintTop_toBottomOf="@id/tv_sleep_tracking1" />
+
+    <EditText
+        android:id="@+id/et_sleep_tracking2"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="16dp"
+        android:inputType="time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/iv_sleep_tracking2"
+        app:layout_constraintTop_toBottomOf="@id/tv_sleep_tracking1" />
+
+    <ImageView
+        android:id="@+id/iv_sleep_tracking3"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/stopwatch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.209"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_sleep_tracking1" />
+
+    <TextView
+        android:id="@+id/tv_sleep_tracking2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="@string/sleep_tracking"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.182"
+        app:layout_constraintStart_toEndOf="@id/iv_sleep_tracking3"
+        app:layout_constraintTop_toBottomOf="@id/et_sleep_tracking2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

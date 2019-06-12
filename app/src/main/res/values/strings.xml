@@ -151,4 +151,8 @@
     <string name="milestone6_21">Can help undress herself</string>
     <string name="milestone6_22">Drinks from a cup </string>
     <string name="milestone6_23">Eats with a spoon </string>
+    <string name="result">Check Recommendation</string>
+    <string name="sleepTracking">Track Your Child\'s Sleeping Pattern</string>
+    <string name="sleepTime">Sleep Time</string>
+    <string name="wakeTime">Wake Up Time</string>
 </resources>

@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light"
         android:usesCleartextTraffic="true">
-        <activity android:name=".views.Milestone6"></activity>
+        <activity android:name=".views.Milestone6" />
         <activity android:name=".views.Milestone5" />
         <activity android:name=".views.Milestone4" />
         <activity android:name=".views.Milestone3" />
@@ -52,6 +52,9 @@
         <activity
             android:name=".views.Milestone2"
             android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".views.SleepTracking"
+            android:windowSoftInputMode="adjustPan"/>
     </application>
 
 </manifest>

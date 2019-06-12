@@ -10,6 +10,7 @@ import android.view.View;
 
 import com.example.maleziapplication.views.Login;
 import com.example.maleziapplication.views.MilestoneActivity;
+import com.example.maleziapplication.views.SleepTracking;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -55,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         btnSleep.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Do something
+                    openSleepActivity();
             }
         });
 
@@ -70,6 +71,11 @@ public class MainActivity extends AppCompatActivity {
     public void openMilestoneActivity(){
         Intent intent = new Intent(this, MilestoneActivity.class);
         startActivity(intent);
+    }
+
+    public void openSleepActivity(){
+        Intent sleep = new Intent(this, SleepTracking.class);
+        startActivity(sleep);
     }
 
     @Override
