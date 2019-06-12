@@ -35,10 +35,6 @@ import butterknife.OnClick;
 public class Login extends Activity {
     private static final String TAG = Login.class.getSimpleName();
 
-    //@BindView(R.id.et_email) TextView tvEmail;
-    //@BindView(R.id.et_password) TextView tvPassword;
-    //@BindView(R.id.login_btn) EditText btnLogin;
-    //@BindView(R.id.login_register_btn) EditText btnRegister;
     private Button btnLogin;
     private Button btnLinkToRegister;
     private EditText tvEmail;

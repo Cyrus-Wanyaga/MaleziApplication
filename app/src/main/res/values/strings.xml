@@ -155,4 +155,5 @@
     <string name="sleepTracking">Track Your Child\'s Sleeping Pattern</string>
     <string name="sleepTime">Sleep Time</string>
     <string name="wakeTime">Wake Up Time</string>
+    <string name="logSession">Log Session</string>
 </resources>

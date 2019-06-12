@@ -5,10 +5,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.TimePickerDialog;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TimePicker;
+import android.widget.Toast;
 
 import com.example.maleziapplication.R;
+import com.example.maleziapplication.helper.SQLiteHandler;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -21,12 +24,16 @@ public class SleepTracking extends AppCompatActivity {
     private String amPm;
     int currentHour, currentMinute;
     Calendar calendar;
-    String sample;
+    String sample, sample2;
+    Button logSession;
+    private SQLiteHandler db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sleep_tracking);
+
+        logSession = findViewById(R.id.btn_sleep_tracking);
 
         pickStartTime = findViewById(R.id.et_sleep_tracking1);
         pickStartTime.setOnClickListener(new View.OnClickListener() {
@@ -68,7 +75,17 @@ public class SleepTracking extends AppCompatActivity {
             }
         });
 
-//        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("HH:mm a");
-//        Date date1 = simpleDateFormat.parse(pickStartTime);
+        sample = pickStartTime.getText().toString().trim();
+        sample2 = pickEndTime.getText().toString().trim();
+
+        logSession.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                db = new SQLiteHandler(getApplicationContext());
+                db.addSleepDetails(sample,sample2);
+                Toast.makeText(getApplicationContext(),"Record saved", Toast.LENGTH_LONG).show();
+            }
+        });
+
     }
 }

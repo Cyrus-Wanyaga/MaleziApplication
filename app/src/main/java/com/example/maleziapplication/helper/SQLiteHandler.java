@@ -21,6 +21,7 @@ public class SQLiteHandler extends SQLiteOpenHelper {
 
     // Login table name
     private static final String TABLE_USER = "user";
+    private static final String TABLE_SLEEP_DATA = "sleep";
 
     // Login Table Columns names
     private static final String KEY_ID = "id";
@@ -28,6 +29,15 @@ public class SQLiteHandler extends SQLiteOpenHelper {
     private static final String KEY_EMAIL = "email";
     //private static final String KEY_UID = "uid";
     private static final String KEY_CREATED_AT = "created_at";
+
+    //sleep table details
+    //private static final String CHILD_ID = "child_id";
+    private static final String SLEEP_ID = "sleep_id";
+//    private static final String DATE = "date";
+    private static final String TIME_START = "time_start";
+    private static final String TIME_END = "time_end";
+//    private static final String TOTAL_TIME = "total_time";
+//    private static final String AWAKE = "awake";
 
     public SQLiteHandler(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -42,6 +52,11 @@ public class SQLiteHandler extends SQLiteOpenHelper {
                 + KEY_CREATED_AT + " TEXT NOT NULL" + ")";
         db.execSQL(CREATE_LOGIN_TABLE);
 
+        String CREATE_SLEEP_TABLE = "CREATE TABLE " + TABLE_SLEEP_DATA + "("
+                + SLEEP_ID + " INTEGER PRIMARY KEY,"
+                + TIME_START + " TEXT NOT NULL," + TIME_END+ " TEXT NOT NULL" +
+        ")";
+        db.execSQL(CREATE_SLEEP_TABLE);
         //Log.d(TAG, "Database tables created");
     }
 
@@ -50,7 +65,7 @@ public class SQLiteHandler extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         // Drop older table if existed
         db.execSQL("DROP TABLE IF EXISTS " + TABLE_USER);
-
+        db.execSQL("DROP TABLE IF EXISTS " + TABLE_SLEEP_DATA);
         // Create tables again
         onCreate(db);
     }
@@ -72,6 +87,21 @@ public class SQLiteHandler extends SQLiteOpenHelper {
         db.close(); // Closing database connection
 
         Log.d(TAG, "New user inserted into sqlite: " + id);
+    }
+
+    public void addSleepDetails(String time_start, String time_end){
+        SQLiteDatabase db = this.getWritableDatabase();
+
+        ContentValues values = new ContentValues();
+        //values.put(SLEEP_ID, sleep_id);
+        //values.put(CHILD_ID, child_id);
+        //values.put(SLEEP_ID,);
+        values.put(TIME_START, time_start);
+        values.put(TIME_END, time_end);
+        //values.put(TOTAL_TIME, total_time);
+        //values.put(AWAKE, awake);
+
+        long result;
     }
 
     /**

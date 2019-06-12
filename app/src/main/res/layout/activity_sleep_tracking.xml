@@ -65,27 +65,39 @@
         app:layout_constraintStart_toEndOf="@+id/iv_sleep_tracking2"
         app:layout_constraintTop_toBottomOf="@id/tv_sleep_tracking1" />
 
+    <Button
+        android:id="@+id/btn_sleep_tracking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/logSession"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_sleep_tracking1" />
+
     <ImageView
         android:id="@+id/iv_sleep_tracking3"
         android:layout_width="48dp"
         android:layout_height="48dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="8dp"
         android:src="@drawable/stopwatch"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.209"
+        app:layout_constraintHorizontal_bias="0.217"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_sleep_tracking1" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_sleep_tracking" />
 
     <TextView
         android:id="@+id/tv_sleep_tracking2"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="36dp"
         android:text="@string/sleep_tracking"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.182"
+        app:layout_constraintHorizontal_bias="0.171"
         app:layout_constraintStart_toEndOf="@id/iv_sleep_tracking3"
-        app:layout_constraintTop_toBottomOf="@id/et_sleep_tracking2" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_sleep_tracking" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
